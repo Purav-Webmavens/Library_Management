@@ -1,0 +1,41 @@
+body{
+    background: url(../image/banner.png);
+    background-repeat: no-repeat;
+   
+}
+.card,marquee{
+    font-family: 'Rubik',arial ;
+}
+
+h1{
+    margin-left: 60px !important;
+    margin-top:80px;
+    color: #000 !important;
+    
+}
+
+a{
+    text-decoration: none !important;
+}
+
+.card-body {
+    color: #000;
+    background: rgb(235, 225, 225) !important;
+    border-radius: 40px;
+}
+
+
+
+.card-body:hover{
+    background: none !important;
+}
+
+@media screen and (max-width:1085px) {
+    .card{
+        margin-left: 64px !important;
+    }
+    h1{
+        margin-left: 90px !important;
+    }
+
+}

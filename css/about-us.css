@@ -1,0 +1,30 @@
+body{
+    background: url(../image/banner.png);
+    background-repeat: no-repeat;
+}
+
+h1{
+    color: white !important;
+    margin-left: 90px !important;
+}
+
+.about{
+    margin-left: 90px !important;
+    color: white !important;
+}
+
+p{
+    font-family: 'Rubik',arial ;
+}
+
+
+@media screen and (max-width:1085px) {
+    .image{
+        width: 100%;
+        margin-left: -20px !important;
+    }
+
+    h1,.about{
+        margin-left: 70px !important;
+    }
+}

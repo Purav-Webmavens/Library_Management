@@ -1,0 +1,50 @@
+body{
+    background: url(../image/banner.png);
+    background-repeat: no-repeat;
+}
+
+.h1{
+    color: white !important;
+    margin-left: 110px !important;
+    margin-top:60px;
+    font-size: 50px;
+}
+
+.heading{
+    color: black !important;
+    margin-left: 11%!important;
+    margin-top: 190px !important;
+}
+
+
+.container{
+    font-family: 'Rubik',arial ;
+}
+
+form{
+    margin-left: 9%;
+}
+
+@media screen and (max-width:1085px) {
+    .contact-us-image{
+        margin-top: 67px;
+    }
+    h1{
+        margin-left: 85px !important;
+    }
+}
+
+@media screen and (max-width:1085px) {
+    .reachus{
+        padding-left: 10% !important;
+        margin-top: -60px !important;
+    }
+}
+
+@media screen and (max-width:1085px) {
+    .h1{
+        font-size: 40px !important;
+        margin-left: 80px !important;
+        margin-top: 70px !important;
+    }
+}
